@@ -123,6 +123,7 @@ def simplify(expr):
 
 if __name__ == "__main__":
     #These "asserts" using only for self-checking and not necessary for auto-testing
+    #web page:http://www.checkio.org/mission/simplification/
     assert simplify(u"(x-1)*(x+1)") == "x**2-1", "First and simple"
     assert simplify(u"(x+1)*(x+1)") == "x**2+2*x+1", "Almost the same"
     assert simplify(u"(x+3)*x*2-x*x") == "x**2+6*x", "Different operations"
